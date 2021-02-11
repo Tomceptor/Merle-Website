@@ -24,32 +24,25 @@
 
   .container {
     position: relative;
-    width: 100%;
+    max-width: 100%;
     height: 0;
-    padding-bottom: 56.25%;
+    padding-bottom: 300px;
   }
 
   .video {
     position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+    margin: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
 </style>
-<!-- Was zur Hölle hab ich hier für ne Coderstruktur drin?-->
+<!-- Wie funktioniert die Videoformatierung der Klassen? Warum ist das denn auch son Kack Bodge?-->
 <body>
   <h1 class="titel">
     Liebe Merle
   </h1>
-
-  <p class="text">
-    Hey Merle, hier ist ein kleiner Bis-Bald-Brief deiner Klasse an dich.
-    <br>
-    Naja, ehrlich gesagt schreibe ich, Tom, im Namen der Klasse, aber ich denke ich kann den Gedanken der Klasse zumindest einigermaßen wiedergeben.
-    </br>
-  </p>
-
+<!-- Überprüfe Text auf Korrektheit-->
   <p class="text">
   <br>Lass mich mit einem kleinen Zitat von Dietrich Bonhoeffer starten:</br>
   <i>„Je schöner und voller die Erinnerung, desto schwerer ist die Trennung.
@@ -58,10 +51,13 @@
   </p>
   <p class="text">
     Wir hatten eine wunderschöne Zeit miteinander und es ist unglaublich traurig, dass du jetzt schon gehen musst.
-    <br>Mir würden viele Wörter einfallen, um die erhaltenen Erinnerungen mit dir zusammenzufassen, aber ich denke mit „Einzigartig“ und „Unwiederbringlich“ ist es kurz zusammengefasst.</br>
+    <br>Mir würden viele Wörter einfallen, um die erhaltenen Erinnerungen mit dir zusammenzufassen, aber ich denke „Einzigartig“ und „Unwiederbringlich“ fassen es gut zusammen.</br>
+    Ich weiß gar nicht wo ich anfangen soll... Sei es dein Einsatz mit unserem Slupina Problem oder deine pure Freundlichkeit und Verlässlichkeit.<br>
+    Mir und uns allen fällt es schwer dich gehen zu sehen.<br>
+    Ich wünschte, wir hätten mehr Zeit gemeinsam geniessen können.
   </p>
   <p class="text">
-    Doch dies soll kein trauriger Abschied sein, sondern ein fröhliches „Bis Bald“.
+    Dennoch sollten wir kein Trübsal blasen. Vor allem in der derzeitigen Zeit tut uns noch ein weiterer Grund traurig zu sein alles andere als gut
   </p>
   <p class="text">
     Behalte unsere Dankbarkeit für dein Da-sein bitte im Kopf, wann immer es dir schlecht geht oder du es mal wieder schwer hast.
@@ -69,7 +65,7 @@
     <br><i><b>Wir sind für dich da.</b></i></br>
   </p>
   <p class="text">
-    So, genug von meiner Nachricht.
+    So, jetzt aber genug von meiner Nachricht.
     <br>Ich übergebe jetzt mal meinen Klassenkameraden das Wort.</br>
     Wir haben dir eine kleine Videonachricht zusammengeschnitten, um dir zu zeigen, wie wichtig du
     <i>jedem einzelnen</i> von uns bist.
@@ -82,7 +78,7 @@
     <iframe
     width="560" height="315" src="https://www.youtube.com/embed/mheHbVev1CU"
     frameborder="0" allowfullscreen class="video">
-
+<!-- Kann man den Text noch umschreiben?-->
     </iframe>
   </div>
 </body>
